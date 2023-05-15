@@ -13,3 +13,6 @@
 
 #local venv files
 venv/
+
+# ignore config info 
+**/airflow.cfg
