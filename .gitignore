@@ -16,3 +16,5 @@ venv/
 
 # ignore config info 
 **/airflow.cfg
+
+#**/configuration.conf
