@@ -43,6 +43,7 @@ output "aws_region" {
     value = var.aws_region
 }
 
+#S3
 output "s3_bucket_name" {
     description = "Region set for AWS"
     value = var.s3_bucket

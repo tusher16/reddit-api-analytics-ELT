@@ -68,6 +68,7 @@ resource "aws_s3_bucket" "reddit_bucket" {
     bucket = var.s3_bucket // specify the name for the S3 bucket
     force_destroy = true 
 }
+
 // Set access control of bucket to private
 resource "aws_s3_bucket_acl" "s3_reddit_bucket_acl" {
   bucket = aws_s3_bucket.reddit_bucket.id
