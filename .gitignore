@@ -18,3 +18,7 @@ venv/
 **/airflow.cfg
 
 **/configuration.conf
+
+#ignore the __pycache__ directory
+airflow/extraction/__pycache__/
+airflow/dags/__pycache__/
