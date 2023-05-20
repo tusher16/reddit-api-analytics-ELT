@@ -1,7 +1,7 @@
 # REDDIT API DATA ELT PIPELINE
 This project aims to create a data pipeline for extracting data from the Reddit API and generating a dashboard for data analysis. The pipeline focuses on extracting data from the subreddit `r/datascience` (https://www.reddit.com/r/datascience/) on a daily basis. The extracted data is then uploaded to AWS S3 buckets and copied to Redshift for further analysis. The orchestration of the pipeline is handled by Apache Airflow running in a Docker container.
 
-The full documentation for the Reddit Data Pipeline can be found on Medium at the following link: [Reddit Data Pipeline Documentation]( https://tusher16.medium.com/8664d5ff842a)
+The full documentation for the Reddit Data Pipeline can be found on Medium at the following link: [Reddit Data Pipeline Documentation]( https://tusher16.medium.com/building-an-end-to-end-data-engineering-project-with-reddit-api-data-using-aws-s3-redshift-8664d5ff842a)
 
 ## Architecture
 
@@ -19,7 +19,7 @@ The full documentation for the Reddit Data Pipeline can be found on Medium at th
 
 ![Dashboard image](https://github.com/tusher16/reddit-api-analytics-ELT/blob/146005d576a97b58f8c1cce1f6211f641e0f6e25/images/tableau_dashboard.png "Dashboard Image")
 
-Explore a dynamic Tableau visualization that was originally linked to an active Amazon Redshift server and gave valuable insights into the data. By switching to a static CSV file, users will be able to keep using the visualization and examine the data without having to pay for the costs of a live database. [Here, on Tableau Public](https://public.tableau.com/app/profile/obaidullah.tusher/viz/DataScience-Reddit/Dashboard1).
+[Follow this link to see the Tableau visualization on Tableau Public](https://public.tableau.com/app/profile/obaidullah.tusher/viz/DataScience-Reddit/Dashboard1)
 
 ## Setup
 
