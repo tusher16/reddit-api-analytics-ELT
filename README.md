@@ -19,6 +19,8 @@ The full documentation for the Reddit Data Pipeline can be found on Medium at th
 
 ![Dashboard image](https://github.com/tusher16/reddit-api-analytics-ELT/blob/146005d576a97b58f8c1cce1f6211f641e0f6e25/images/tableau_dashboard.png "Dashboard Image")
 
+Explore a dynamic Tableau visualization that was originally linked to an active Amazon Redshift server and gave valuable insights into the data. By switching to a static CSV file, users will be able to keep using the visualization and examine the data without having to pay for the costs of a live database. [Here, on Tableau Public](https://public.tableau.com/app/profile/obaidullah.tusher/viz/DataScience-Reddit/Dashboard1).
+
 ## Setup
 
 To set up the pipeline, follow the steps below. Note that if you are using the AWS free tier, there will be no costs incurred. However, make sure to terminate all resources within 2 months to avoid any charges. Also, be aware of any changes to the AWS free tier terms and conditions.
